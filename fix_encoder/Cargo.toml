@@ -1,0 +1,9 @@
+[package]
+name = "fix_encoder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fefix = { version = "*", features = ["json-encoding", "fix44"] }
+serde = { version = "1.0.163", features = ["derive"] }
+serde_json = "1.0.96"

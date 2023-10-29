@@ -1,0 +1,6 @@
+[workspace]
+members = ["fix_decoder", "fix_encoder", "logger_rust", "fix_bot_rust"]
+resolver = "2"
+
+[patch.crates-io]
+fefix = { git = "https://github.com/bitwyre/ferrum-fix.git", branch = "develop" }
